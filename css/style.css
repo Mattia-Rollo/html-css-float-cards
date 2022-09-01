@@ -23,6 +23,10 @@ header {
     text-align: center;
     padding: 20px;
     color: #e53170;
+    margin: 50px 50px;
+}
+h1{
+    font-size: 4em;
 }
 
 .card p {
@@ -35,9 +39,10 @@ main {
     margin: 0 auto;
 }
 
-main>p {
+main > p {
     text-align: center;
     margin-bottom: 100px;
+    font-size: 1.5em;
 }
 
 /* Impostazioni delle card */
@@ -46,10 +51,10 @@ main>p {
     background-color: black;
     float: left;
     width: calc((100% - 40px) / 3);
-    -webkit-box-shadow: 0px 0px 5px 0px #000000;
-    -moz-box-shadow: 0px 0px 5px 0px #000000;
-    -o-box-shadow: 0px 0px 5px 0px #000000;
-    box-shadow: 0px 0px 5px 0px #000000;
+    -webkit-box-shadow: 0px 15px 39px 0px #000000;
+    -moz-box-shadow: 0px 15px 39px 0px #000000;
+    -o-box-shadow: 0px 15px 39px 0px #000000;
+    box-shadow: 0px 15px 39px 0px #000000;
 
 }
 
@@ -70,6 +75,7 @@ main>p {
 h3 {
     color: white;
     margin: 10px 10px;
+    margin-top: 20px;
 }
 
 .card p {
