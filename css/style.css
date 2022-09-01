@@ -42,8 +42,15 @@ main > p{
 .card {
     background-color: black;
     float: left;
-    width: calc((100% - 20px) / 3);
-    margin: 20px 20px;
+    width: calc((100% - 40px) / 3);
+    
+    
+}
+.primariga{
+    margin-bottom: 50px;
+}
+.mrgn{
+    margin: 0 20px;
 }
 .card img {
     float: left;
