@@ -1,17 +1,17 @@
-
 /* utility */
 
-*{
+* {
     margin: 0%;
     padding: 0;
     box-sizing: border-box;
     font-family: Fredoka;
 }
+
 .clearfix::after {
     content: "";
     display: table;
     clear: both;
-  }
+}
 
 html {
     background-color: rgb(255, 255, 255);
@@ -24,43 +24,54 @@ header {
     padding: 20px;
     color: #e53170;
 }
+
 .card p {
     color: white;
     line-height: 20px;
 }
+
 main {
     width: 70%;
     margin: 0 auto;
 }
-main > p{
+
+main>p {
     text-align: center;
     margin-bottom: 100px;
 }
 
-        /* Impostazioni delle card */
+/* Impostazioni delle card */
 
 .card {
     background-color: black;
     float: left;
     width: calc((100% - 40px) / 3);
-    
-    
+    -webkit-box-shadow: 0px 0px 5px 0px #000000;
+    -moz-box-shadow: 0px 0px 5px 0px #000000;
+    -o-box-shadow: 0px 0px 5px 0px #000000;
+    box-shadow: 0px 0px 5px 0px #000000;
+
 }
-.primariga{
+
+.primariga {
     margin-bottom: 50px;
 }
-.mrgn{
+
+.mrgn {
     margin: 0 20px;
 }
+
 .card img {
     float: left;
     width: 150px;
     padding-right: 10px;
 }
+
 h3 {
     color: white;
     margin: 10px 10px;
 }
+
 .card p {
     line-height: 40px;
 }
